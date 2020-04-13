@@ -1,14 +1,31 @@
 # W3D1 Web Servers 101
 
 ### To Do
-- [ ] Intro to Web Servers
-- [ ] Intro to Express
+- [x] Intro to Web Servers
+- [x] Intro to Express
 - [ ] What is "Middleware?"
 - [ ] Custom Middleware
 - [ ] Breakout! Coding exercise
 - [ ] Server-side view templates with EJS
 
+- web server aka the back end
+- front end
+- database
 
+### Web Servers 101
+- built around HTTP's request and response cycle
+- knows how to interpret the HTTP request
+- has access to file(s)/data to respond with
+- responds with at minimum a status code and possible some data/file
+- server <==tcp/http==> client
+- 65,535 ports available for each internet connection
+
+localhost:1234
+www.example.com
+
+### ExpressJS
+- makes it really easy to create a web server
+- very easy to create route handlers
 
 
 
