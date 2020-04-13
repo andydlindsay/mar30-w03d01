@@ -3,10 +3,10 @@
 ### To Do
 - [x] Intro to Web Servers
 - [x] Intro to Express
-- [ ] What is "Middleware?"
-- [ ] Custom Middleware
-- [ ] Breakout! Coding exercise
-- [ ] Server-side view templates with EJS
+- [x] What is "Middleware?"
+- [x] Custom Middleware
+- [x] Breakout! Coding exercise
+- [x] Server-side view templates with EJS
 
 - web server aka the back end
 - front end
@@ -27,10 +27,18 @@ www.example.com
 - makes it really easy to create a web server
 - very easy to create route handlers
 
+### Middleware
+- Behaviour (in the form of functions) that sits between the request and the response
 
+### EJS
+- <%= output to the file %>
+- <% execute javascript but don't output to the file %>
 
-
-
+```ejs
+<% for (const todo of todos) { %>
+  <li><%= todo.task %></li>
+<% } %>
+```
 
 ### Breakout! Coding Exercise
 * Clone this [repo](https://github.com/andydlindsay/w03d01-breakout) and follow the instructions in `README.md`
